@@ -1,0 +1,39 @@
+.landing {
+    background-image: url("/Images/landing.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+img {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+span {
+    display: block;
+    flex-direction: column;
+    font-size: 30px;
+    border: 1px solid rgb(228, 233, 221);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.Drinks {
+    float: left;
+    margin: 80px;
+    padding: 10px;
+    box-shadow: 1px 80px 10px 1px grey;
+}
+
+.two {
+    display: block;
+    justify-content: right;
+    margin: 140px;
+}
