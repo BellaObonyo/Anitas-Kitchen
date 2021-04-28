@@ -5,6 +5,11 @@
     height: 500px;
 }
 
+#Img {
+    align-items: left;
+    justify-content: left;
+}
+
 img {
     display: block;
     margin: 0 auto 0 auto;
