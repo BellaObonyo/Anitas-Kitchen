@@ -49,19 +49,18 @@
     box-shadow: 1px 80px 10px 1px grey;
 }
 
-.two {
-    display: block;
-    justify-content: right;
-    margin: 140px;
-}
-
 .Fastfood {
     background-image: url("Images/foodsBg.jpg");
+    color: white;
+}
+
+.alt {
+    justify-content: right;
+    display: block;
 }
 
 .Menu {
     background-color: #F15A29;
-    justify-content: center;
     text-align: center;
     color: white;
 }
