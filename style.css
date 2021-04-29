@@ -10,24 +10,30 @@
     justify-content: left;
 }
 
-img {
-    display: block;
-    margin: 0 auto 0 auto;
-}
-
 .container {
     display: flex;
-    flex-direction: row;
-    height: 200px;
+    flex-wrap: wrap;
 }
 
-span {
-    display: block;
+.Hour {
+    display: flex;
     flex-direction: column;
-    font-size: 30px;
-    border: 1px solid rgb(228, 233, 221);
-    box-sizing: border-box;
+}
+
+.Happy {
     text-align: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#Time {
+    background-color: white;
+    color: black;
+}
+
+#Party {
+    background-color: orange;
+    color: white;
 }
 
 .Drinks {
@@ -41,4 +47,8 @@ span {
     display: block;
     justify-content: right;
     margin: 140px;
+}
+
+.Fastfood {
+    background-image: url("Images/foodsBg.jpg");
 }
