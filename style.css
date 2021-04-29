@@ -61,4 +61,7 @@
 
 .Menu {
     background-color: #F15A29;
+    justify-content: center;
+    text-align: center;
+    color: white;
 }
