@@ -1,19 +1,18 @@
-.logo {
+.header {
     background-image: url("/Images/landing.jpg");
     background-repeat: no-repeat;
     background-position: center;
     height: 500px;
 }
 
-.text {
+.logo {
     text-align: center;
+    height: 15px;
 }
 
 #Img {
     align-items: left;
     justify-content: left;
-    height: 5px;
-    width: 5px;
 }
 
 .container {
@@ -51,16 +50,48 @@
 
 .Fastfood {
     background-image: url("Images/foodsBg.jpg");
-    color: white;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
 }
 
-.alt {
+.Beef {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.Rice {
+    display: flex;
+}
+
+.color {
+    display: flex;
+    align-items: center;
+    background-color: rgb(216, 209, 209);
+    color: black;
+    width: 25%;
+    border: 1px solid rgb(41, 39, 39);
+}
+
+.Burger {
     justify-content: right;
     display: block;
+}
+
+.source {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
 }
 
 .Menu {
     background-color: #F15A29;
     text-align: center;
     color: white;
+}
+
+
 }
