@@ -5,9 +5,15 @@
     height: 500px;
 }
 
+.text {
+    text-align: center;
+}
+
 #Img {
     align-items: left;
     justify-content: left;
+    height: 5px;
+    width: 5px;
 }
 
 .container {
