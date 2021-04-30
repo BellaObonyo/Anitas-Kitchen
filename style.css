@@ -86,7 +86,7 @@
     flex-direction: row;
     margin-left: 10%;
     margin-right: 10%;
-    border: 4px solid rgb(114, 112, 112);
+    border: 4px solid rgb(192, 187, 187);
     margin-top: 10%;
 }
 
@@ -111,7 +111,7 @@
 #little {
     width: 50%;
     text-align: center;
-    border-left: 4px solid rgb(216, 209, 209);
+    border-left: 2px solid rgb(216, 209, 209);
 }
 
 #little>h1 {
@@ -140,12 +140,12 @@
 
 #email {
     padding: 5px 80px 5px 5px;
-    background-color: wheat;
+    background-color: rgba(209, 203, 203, 0.938);
     margin-right: 2%;
 }
 
 #sub {
-    padding: 5px 30px 5px 5px;
+    padding: 5px 50px 5px 5px;
     background-color: #F15A29;
 }
 
