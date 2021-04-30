@@ -86,7 +86,7 @@
     flex-direction: row;
     margin-left: 10%;
     margin-right: 10%;
-    border: 1px solid rgb(114, 112, 112);
+    border: 4px solid rgb(114, 112, 112);
     margin-top: 10%;
 }
 
@@ -100,6 +100,10 @@
     text-align: center;
 }
 
+.customers>h1 {
+    color: #F15A29;
+}
+
 #left {
     width: 50%;
 }
@@ -107,16 +111,49 @@
 #little {
     width: 50%;
     text-align: center;
+    border-left: 4px solid rgb(216, 209, 209);
+}
+
+#little>h1 {
+    color: #F15A29;
 }
 
 #daily {
     background-image: url("/Images/subscribe.jpg");
     height: 300px;
     color: white;
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
 }
 
 .team {
     display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    position: absolute;
+    margin-left: 35%;
+    margin-right: 25%;
+}
+
+#email {
+    padding: 5px 80px 5px 5px;
+    background-color: wheat;
+    margin-right: 2%;
+}
+
+#sub {
+    padding: 5px 30px 5px 5px;
+    background-color: #F15A29;
+}
+
+.Get {
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 32%;
+    margin-right: 25%;
 }
 
 .source {
