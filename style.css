@@ -81,6 +81,21 @@
     display: block;
 }
 
+#man {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#left {
+    width: 50%;
+}
+
+#little {
+    width: 50%;
+}
+
 .source {
     display: flex;
     justify-content: center;
