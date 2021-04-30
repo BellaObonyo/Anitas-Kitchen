@@ -86,6 +86,18 @@
     flex-direction: row;
     margin-left: 10%;
     margin-right: 10%;
+    border: 1px solid rgb(114, 112, 112);
+    margin-top: 10%;
+}
+
+.Images {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.customers {
+    text-align: center;
 }
 
 #left {
@@ -94,6 +106,17 @@
 
 #little {
     width: 50%;
+    text-align: center;
+}
+
+#daily {
+    background-image: url("/Images/subscribe.jpg");
+    height: 300px;
+    color: white;
+}
+
+.team {
+    display: flex;
 }
 
 .source {
