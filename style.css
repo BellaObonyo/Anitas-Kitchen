@@ -1,6 +1,5 @@
 .landing {
-    background-image: url(".//Images/landing.jpg");
-    background-repeat: no-repeat;
+    background-color: blue;
     background-position: center;
     overflow: hidden;
     margin-left: -10px;
