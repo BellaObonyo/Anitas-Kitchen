@@ -62,7 +62,7 @@
 }
 
 .Fastfood {
-    background-image: url("Images/foodsBg.jpg");
+    background-image: url("./Images/foodsBg.jpg");
     padding: 50px;
     align-items: center;
     justify-content: center;
