@@ -33,24 +33,21 @@
     font-size: xx-large;
 }
 
-
-/* .container {
+.container {
     display: flex;
     flex-wrap: wrap;
-} */
+}
 
-
-/* .Hour {
+.Hour {
     display: flex;
     flex-direction: column;
-} */
+}
 
-
-/* .Happy {
+.Happy {
     text-align: center;
     justify-content: center;
     flex-grow: 1;
-} */
+}
 
 #Time {
     background-color: white;
@@ -63,12 +60,6 @@
     background-color: #F15A29;
     color: white;
     height: 98px;
-}
-
-.Drinks {
-    float: left;
-    margin: 80px;
-    padding: 10px;
 }
 
 .Fastfood {
@@ -104,7 +95,7 @@
     display: block;
 }
 
-#man {
+.man {
     display: flex;
     flex-direction: row;
     margin-left: 10%;
@@ -113,12 +104,11 @@
     margin-top: 10%;
 }
 
-
-/* .Images {
+.Images {
     display: flex;
     justify-content: center;
     padding-bottom: 5%;
-} */
+}
 
 .customers {
     text-align: center;
@@ -132,7 +122,7 @@
     width: 50%;
 }
 
-#little {
+.little {
     width: 50%;
     text-align: center;
     border-left: 2px solid rgb(216, 209, 209);
@@ -142,7 +132,7 @@
     color: #F15A29;
 }
 
-#daily {
+.daily {
     background-image: url("/Images/subscribe.jpg");
     height: 300px;
     color: white;
@@ -162,13 +152,13 @@
     margin-right: 25%;
 }
 
-#email {
+.email {
     padding: 5px 80px 5px 5px;
     background-color: rgba(209, 203, 203, 0.938);
     margin-right: 2%;
 }
 
-#sub {
+.sub {
     padding: 5px 50px 5px 5px;
     background-color: #F15A29;
 }
@@ -205,4 +195,22 @@
     padding-right: 40px;
     border: 3px solid rgb(177, 176, 176);
     padding: 15px;
+}
+
+.class {
+    float: right;
+    clear: left;
+    margin-right: 200px;
+    border: 3px solid rgb(177, 176, 176);
+    padding: 15px;
+    margin-left: 3%;
+}
+
+.bombe {
+    padding-left: 20%;
+    padding-right: 15%;
+}
+
+.drinks {
+    text-align: right;
 }
