@@ -1,5 +1,5 @@
 .header {
-    background-image: url("/Images/landing.jpg");
+    background-image: url("./Images/landing.jpg");
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
