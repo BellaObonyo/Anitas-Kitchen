@@ -132,7 +132,7 @@
 }
 
 .daily {
-    background-image: url("/Images/subscribe.jpg");
+    background-image: url("./Images/subscribe.jpg");
     height: 300px;
     color: white;
     text-align: center;
