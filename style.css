@@ -2,17 +2,35 @@
     background-image: url("/Images/landing.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    height: 500px;
+    overflow: hidden;
+    margin-left: -10px;
+    margin-right: -8px;
+    background-size: cover;
+    margin-top: -10px;
+}
+
+#Img {
+    width: 90px;
+    padding-top: 60px;
+    padding-left: 90px;
 }
 
 .logo {
     text-align: center;
-    height: 15px;
+    justify-content: center;
+    margin: -60px;
+    padding: 80px;
+    display: flex;
 }
 
-#Img {
-    align-items: left;
-    justify-content: left;
+#headerparagraph {
+    text-align: center;
+    padding-right: 300px;
+    padding-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: xx-large;
 }
 
 .container {
@@ -45,7 +63,6 @@
     float: left;
     margin: 80px;
     padding: 10px;
-    box-shadow: 1px 80px 10px 1px grey;
 }
 
 .Fastfood {
