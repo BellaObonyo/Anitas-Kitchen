@@ -33,30 +33,36 @@
     font-size: xx-large;
 }
 
-.container {
+
+/* .container {
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
-.Hour {
+
+/* .Hour {
     display: flex;
     flex-direction: column;
-}
+} */
 
-.Happy {
+
+/* .Happy {
     text-align: center;
     justify-content: center;
     flex-grow: 1;
-}
+} */
 
 #Time {
     background-color: white;
     color: black;
+    height: 80px;
+    width: 221px;
 }
 
 #Party {
     background-color: #F15A29;
     color: white;
+    height: 98px;
 }
 
 .Drinks {
@@ -107,11 +113,12 @@
     margin-top: 10%;
 }
 
-.Images {
+
+/* .Images {
     display: flex;
     justify-content: center;
     padding-bottom: 5%;
-}
+} */
 
 .customers {
     text-align: center;
@@ -185,5 +192,6 @@
     color: white;
 }
 
-
+.container {
+    display: inline-flex
 }
