@@ -2,38 +2,215 @@
     background-image: url(".//Images/landing.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    height: 500px;
+    overflow: hidden;
+    margin-left: -10px;
+    margin-right: -8px;
+    background-size: cover;
+    margin-top: -10px;
 }
 
-img {
-    display: block;
-    margin: 0 auto 0 auto;
+#Img {
+    width: -10px;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.logo {
+    text-align: center;
+    justify-content: center;
+    margin: -60px;
+    padding: 80px;
+    display: flex;
+}
+
+#headerparagraph {
+    text-align: center;
+    padding-right: 300px;
+    padding-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: xx-large;
 }
 
 .container {
     display: flex;
-    flex-direction: row;
-    height: 200px;
+    flex-wrap: wrap;
 }
 
-span {
-    display: block;
+.Hour {
+    display: flex;
     flex-direction: column;
-    font-size: 30px;
-    border: 1px solid rgb(228, 233, 221);
-    box-sizing: border-box;
+}
+
+.Happy {
+    text-align: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#Time {
+    background-color: white;
+    color: black;
+    height: 80px;
+    width: 221px;
+}
+
+#Party {
+    background-color: #F15A29;
+    color: white;
+    height: 98px;
+}
+
+.Fastfood {
+    background-image: url("Images/foodsBg.jpg");
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Beef {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.Rice {
+    display: flex;
+}
+
+.color {
+    display: flex;
+    align-items: center;
+    background-color: rgb(216, 209, 209);
+    color: black;
+    width: 25%;
+    border: 1px solid rgb(41, 39, 39);
+}
+
+.Burger {
+    justify-content: right;
+    display: block;
+}
+
+.man {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 4px solid rgb(192, 187, 187);
+    margin-top: 10%;
+}
+
+.Images {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.customers {
     text-align: center;
 }
 
-.Drinks {
-    float: left;
-    margin: 80px;
-    padding: 10px;
-    box-shadow: 1px 80px 10px 1px grey;
+.customers>h1 {
+    color: #F15A29;
 }
 
-.two {
-    display: block;
-    justify-content: right;
-    margin: 140px;
+#left {
+    width: 50%;
+}
+
+.little {
+    width: 50%;
+    text-align: center;
+    border-left: 2px solid rgb(216, 209, 209);
+}
+
+#little>h1 {
+    color: #F15A29;
+}
+
+.daily {
+    background-image: url("/Images/subscribe.jpg");
+    height: 300px;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    position: absolute;
+    margin-left: 35%;
+    margin-right: 25%;
+}
+
+.email {
+    padding: 5px 80px 5px 5px;
+    background-color: rgba(209, 203, 203, 0.938);
+    margin-right: 2%;
+}
+
+.sub {
+    padding: 5px 50px 5px 5px;
+    background-color: #F15A29;
+}
+
+.Get {
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 32%;
+    margin-right: 25%;
+}
+
+.source {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.Menu {
+    background-color: #F15A29;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: inline-flex
+}
+
+.dot {
+    padding-left: 15%;
+    padding-top: 3%;
+}
+
+.cardi {
+    padding-right: 40px;
+    border: 3px solid rgb(177, 176, 176);
+    padding: 15px;
+}
+
+.class {
+    float: right;
+    clear: left;
+    margin-right: 200px;
+    border: 3px solid rgb(177, 176, 176);
+    padding: 15px;
+    margin-left: 3%;
+}
+
+.bombe {
+    padding-left: 20%;
+    padding-right: 15%;
+}
+
+.drinks {
+    text-align: right;
 }
